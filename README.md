@@ -16,12 +16,12 @@ Follow these steps to set up the project locally:
    git clone https://github.com/mispalak9/Coin-Flip-App.git
    cd Coin-Flip-App
 
-Create a new React app:
+2. **Create a new React app**:
 mkdir coinflip-game
 cd coinflip-game
 npx create-react-app .
 
-Install dependencies:
+3. **Install dependencies**:
 npm install web3
 npm install @metamask/detect-provider
 npm install styled-components
@@ -31,21 +31,23 @@ npm install -g truffle
 npm install @truffle/hdwallet-provider
 npm install @solana/web3.js
 
-Migrate smart contracts:
+
+4. **Migrate smart contracts**:
 truffle migrate --network rinkeby
 
-Usage
-Start the development server:
+## Usage
+**Start the development server**:
 npm start
 
-Open the app in your browser: Navigate to http://localhost:3000 to see the CoinFlip app in action.
-Contributing
+**Open the app in your browser: Navigate to http://localhost:3000 to see the CoinFlip app in action**.
+
+## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgements
+## Acknowledgements
 React
 Web3.js
 MetaMask
