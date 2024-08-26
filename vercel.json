@@ -1,5 +1,20 @@
 {
-  "rewrites": [
-    {"source": "/(.*)", "destination": "/"}
+  "orgId": "team_Fj3MFZv8odWvm8hGU1d8SHRo",
+  "projectId": "prj_cPRPtd70W4WHPZItkyXIeapjHLrT",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
   ]
 }
